@@ -11,7 +11,8 @@
  */
 
 class LoggingMessage{
-    constructor(robName, createTime, level, loggingName, message){
+    constructor(id, robName, createTime, level, loggingName, message){
+        this.id = id || -1;
         this.robName = robName || "T_ROB1";
         this.createTime = createTime || new Date();
         this.level = level || 30;		

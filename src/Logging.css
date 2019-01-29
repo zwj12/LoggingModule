@@ -1,0 +1,28 @@
+.logging table {
+	border-collapse: collapse;
+}
+
+.logging table, th, td {
+	border: 1px solid blue;
+}
+
+th.logging {
+	width: 90px;
+	height: 30px;
+}
+
+.logging td {
+	text-align: left;
+	vertical-align: center;
+	height: 30px;
+}
+
+th.logging-date {
+	width: 150px;
+	height: 30px;
+}
+
+th.logging-message {
+	width: 1000px;
+	height: 30px;
+}
